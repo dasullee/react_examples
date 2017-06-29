@@ -11,7 +11,7 @@ class Clock extends Component{
 
     componentWillMount(){
         // Call the tick method every one second
-        setInterval(() => this.tick(), 1000)
+        setInterval(() => this.tick(), 1000);
     }
 
     tick(){
