@@ -1,0 +1,7 @@
+.puppy-bg {
+    background-image: url(./imgs/let_me_out_puppy.jpg);
+    background-size: contain;
+    border: 3px solid black;
+    height: 375px;
+    width: 600px;
+}
