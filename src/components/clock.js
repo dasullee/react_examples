@@ -7,6 +7,7 @@ class Clock extends Component{
         this.state = {
             time: new Date()
         }
+        console.log('Clock state:', this.state);
     }
 
     componentWillMount(){
