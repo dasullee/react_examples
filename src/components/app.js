@@ -1,13 +1,12 @@
 import React from 'react';
-import './app.css';
-import logo from './imgs/logo.svg';
+import Test from './test';
+import ConnectTest from './connect_test';
 
 const App = () => (
-    <div>
-        <div className="app">
-            <img src={logo} className="rotate"/>
-            <h1>Welcome to React!</h1>
-        </div>
+    <div className="container">
+        <h1 className="mt-3">HOC Example</h1>
+        <Test/>
+        <ConnectTest/>
     </div>
 );
 
