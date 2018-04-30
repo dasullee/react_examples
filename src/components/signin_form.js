@@ -29,9 +29,8 @@ class SigninForm extends Component {
         const { name, value } = event.target;
         
         const { form } = this.state;
-        form[name] = value;
 
-        this.setState({form: {...form}});
+        this.setState({form: {...form, [name]: value}});
     }
 
     render(){
